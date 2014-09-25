@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Misael Pérez Chamorro. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RKULoginViewController.h"
 
-@interface ViewController ()
+@interface RKULoginViewController ()
 
 @end
 
-@implementation ViewController
+@implementation RKULoginViewController
 
 - (void)viewDidLoad {
   [super viewDidLoad];

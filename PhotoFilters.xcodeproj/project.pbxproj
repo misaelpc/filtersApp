@@ -10,11 +10,12 @@
 		0C77432A19D0A926004FC08A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C77432919D0A926004FC08A /* main.m */; };
 		0C77432D19D0A926004FC08A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C77432C19D0A926004FC08A /* AppDelegate.m */; };
 		0C77433019D0A926004FC08A /* PhotoFilters.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C77432E19D0A926004FC08A /* PhotoFilters.xcdatamodeld */; };
-		0C77433319D0A926004FC08A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C77433219D0A926004FC08A /* ViewController.m */; };
+		0C77433319D0A926004FC08A /* RKULoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C77433219D0A926004FC08A /* RKULoginViewController.m */; };
 		0C77433619D0A926004FC08A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C77433419D0A926004FC08A /* Main.storyboard */; };
 		0C77433819D0A926004FC08A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C77433719D0A926004FC08A /* Images.xcassets */; };
 		0C77433B19D0A926004FC08A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C77433919D0A926004FC08A /* LaunchScreen.xib */; };
 		0C77434719D0A926004FC08A /* PhotoFiltersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C77434619D0A926004FC08A /* PhotoFiltersTests.m */; };
+		0CAE68A819D235AF0009365B /* RKUTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE68A719D235AF0009365B /* RKUTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +35,16 @@
 		0C77432B19D0A926004FC08A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C77432C19D0A926004FC08A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0C77432F19D0A926004FC08A /* PhotoFilters.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoFilters.xcdatamodel; sourceTree = "<group>"; };
-		0C77433119D0A926004FC08A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0C77433219D0A926004FC08A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C77433119D0A926004FC08A /* RKULoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKULoginViewController.h; sourceTree = "<group>"; };
+		0C77433219D0A926004FC08A /* RKULoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKULoginViewController.m; sourceTree = "<group>"; };
 		0C77433519D0A926004FC08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C77433719D0A926004FC08A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0C77433A19D0A926004FC08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0C77434019D0A926004FC08A /* PhotoFiltersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoFiltersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C77434519D0A926004FC08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C77434619D0A926004FC08A /* PhotoFiltersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoFiltersTests.m; sourceTree = "<group>"; };
+		0CAE68A619D235AF0009365B /* PhotoFilters-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoFilters-Bridging-Header.h"; sourceTree = "<group>"; };
+		0CAE68A719D235AF0009365B /* RKUTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKUTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +86,10 @@
 		0C77432619D0A926004FC08A /* PhotoFilters */ = {
 			isa = PBXGroup;
 			children = (
+				0CAE68A519D235510009365B /* Views */,
+				0CAE68A419D2352A0009365B /* Controllers */,
 				0C77432B19D0A926004FC08A /* AppDelegate.h */,
 				0C77432C19D0A926004FC08A /* AppDelegate.m */,
-				0C77433119D0A926004FC08A /* ViewController.h */,
-				0C77433219D0A926004FC08A /* ViewController.m */,
 				0C77433419D0A926004FC08A /* Main.storyboard */,
 				0C77433719D0A926004FC08A /* Images.xcassets */,
 				0C77433919D0A926004FC08A /* LaunchScreen.xib */,
@@ -120,6 +123,24 @@
 				0C77434519D0A926004FC08A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CAE68A419D2352A0009365B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0C77433119D0A926004FC08A /* RKULoginViewController.h */,
+				0C77433219D0A926004FC08A /* RKULoginViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		0CAE68A519D235510009365B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0CAE68A719D235AF0009365B /* RKUTextField.swift */,
+				0CAE68A619D235AF0009365B /* PhotoFilters-Bridging-Header.h */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,8 +245,9 @@
 			files = (
 				0C77433019D0A926004FC08A /* PhotoFilters.xcdatamodeld in Sources */,
 				0C77432D19D0A926004FC08A /* AppDelegate.m in Sources */,
-				0C77433319D0A926004FC08A /* ViewController.m in Sources */,
+				0C77433319D0A926004FC08A /* RKULoginViewController.m in Sources */,
 				0C77432A19D0A926004FC08A /* main.m in Sources */,
+				0CAE68A819D235AF0009365B /* RKUTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,9 +369,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PhotoFilters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PhotoFilters/PhotoFilters-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -357,9 +382,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = PhotoFilters/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PhotoFilters/PhotoFilters-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -416,6 +443,7 @@
 				0C77434C19D0A926004FC08A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C77434D19D0A926004FC08A /* Build configuration list for PBXNativeTarget "PhotoFiltersTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +452,7 @@
 				0C77434F19D0A926004FC08A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
