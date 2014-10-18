@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C7454FB19F07051000F211D /* RKULeftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7454FA19F07051000F211D /* RKULeftView.swift */; };
+		0C7454FD19F2926D000F211D /* TestTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7454FC19F2926D000F211D /* TestTextField.swift */; };
+		0C7454FF19F2951D000F211D /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7454FE19F2951D000F211D /* TestView.swift */; };
+		0C74550119F29879000F211D /* ControlsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C74550019F29879000F211D /* ControlsTableViewController.swift */; };
 		0C77432A19D0A926004FC08A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C77432919D0A926004FC08A /* main.m */; };
 		0C77432D19D0A926004FC08A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C77432C19D0A926004FC08A /* AppDelegate.m */; };
 		0C77433019D0A926004FC08A /* PhotoFilters.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C77432E19D0A926004FC08A /* PhotoFilters.xcdatamodeld */; };
@@ -29,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C7454FA19F07051000F211D /* RKULeftView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKULeftView.swift; sourceTree = "<group>"; };
+		0C7454FC19F2926D000F211D /* TestTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTextField.swift; sourceTree = "<group>"; };
+		0C7454FE19F2951D000F211D /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		0C74550019F29879000F211D /* ControlsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlsTableViewController.swift; sourceTree = "<group>"; };
 		0C77432419D0A926004FC08A /* PhotoFilters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFilters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C77432819D0A926004FC08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C77432919D0A926004FC08A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -130,6 +138,7 @@
 			children = (
 				0C77433119D0A926004FC08A /* RKULoginViewController.h */,
 				0C77433219D0A926004FC08A /* RKULoginViewController.m */,
+				0C74550019F29879000F211D /* ControlsTableViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -139,6 +148,9 @@
 			children = (
 				0CAE68A719D235AF0009365B /* RKUTextField.swift */,
 				0CAE68A619D235AF0009365B /* PhotoFilters-Bridging-Header.h */,
+				0C7454FA19F07051000F211D /* RKULeftView.swift */,
+				0C7454FC19F2926D000F211D /* TestTextField.swift */,
+				0C7454FE19F2951D000F211D /* TestView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -243,9 +255,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C7454FB19F07051000F211D /* RKULeftView.swift in Sources */,
 				0C77433019D0A926004FC08A /* PhotoFilters.xcdatamodeld in Sources */,
 				0C77432D19D0A926004FC08A /* AppDelegate.m in Sources */,
 				0C77433319D0A926004FC08A /* RKULoginViewController.m in Sources */,
+				0C74550119F29879000F211D /* ControlsTableViewController.swift in Sources */,
+				0C7454FF19F2951D000F211D /* TestView.swift in Sources */,
+				0C7454FD19F2926D000F211D /* TestTextField.swift in Sources */,
 				0C77432A19D0A926004FC08A /* main.m in Sources */,
 				0CAE68A819D235AF0009365B /* RKUTextField.swift in Sources */,
 			);

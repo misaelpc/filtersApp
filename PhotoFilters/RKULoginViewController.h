@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PhotoFilters-Swift.h"
 
-@interface RKULoginViewController : UIViewController
+@interface RKULoginViewController : UIViewController<UITextFieldDelegate>
 
+@property (nonatomic, weak) IBOutlet RKUTextField *userNameTextField;
+@property (nonatomic, weak) IBOutlet RKUTextField *passwordTextField;
 
 @end
 
